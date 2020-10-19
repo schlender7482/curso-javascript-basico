@@ -1,44 +1,44 @@
 # Curso JavaScript Básico
 Curso de javaScript Básico da formação de Desenvolvedor Laravel Full-Stack da TreinaWeb.
 
-####Tipos primitivos
+#### Tipos primitivos
 
-#####Boolean
+##### Boolean
 true ou false
 
 > Obs: alguns valores podem ser equivalentes a true ou false como por exemplo:
 0, -0, null, undefined, NaN, e ''(string vazia) todos equivalem a false.
 Já qualquer outro valor, até mesmo '0' e 'false' equivalem a true por não serem string vazia.
 
-#####Undefined e Null
+##### Undefined e Null
 Esses dois tipos indicam a ausência de valor.
 
-#####Number
+##### Number
 Usado para armazenar valores numéricos desde números inteiros até números flutuantes.
 
 > 15 ou 1255.63 até números muito grandes como 2.998e10.
 
-#####Strings
+##### Strings
 As Strings são usadas para representar textos. Sempre que quisermos um texto teremos que incluir aspas entre o texto, duplas ou simples.
 
 > "Olá, está é uma string" ou 'Olá, está é uma string', porém em alguns casos em que houver aspas simples em meio
 a palavra se recomenda utilizar a aspas duplas: "Mc Donals's".
 
-#####Symbols
+##### Symbols
 Novo tipo primitivo, tipo de dado que é único e imutável. Podendo ser utilizado como identificador de propriedades de objetos e etc.
 
 > var sym1 = Symbol();
 
 
-####Operadores
+#### Operadores
 
-#####Operadores Lógicos
+##### Operadores Lógicos
 Normalmente usados para trabalhar com o tipo Boolean.
 
 - '&&' significa E.
 - '||' significa OU.
 
-#####Operadores Aritméticos
+##### Operadores Aritméticos
 Eles são usados com números para que possamos fazer cálculos.
 
 - '+' Adição ou Concatenação de strings ('a'+'b' = 'ab')
@@ -49,7 +49,7 @@ Eles são usados com números para que possamos fazer cálculos.
 - '**' Potenciação.
 - '++' ou '--' Incremento e Decremento respectivamente. 
 
-#####Operadores de Igualdade e Relacionais
+##### Operadores de Igualdade e Relacionais
 Serve para comparar se dois valores são ou não iguais, retornando 'true' para se forem iguais e 'false' caso sejam diferentes ou apenas para checar se valor é maior ou menor que o outro.
 
 > Obs: '!' é um operador que indica a negação, então a junção de '!=' significa não igual.
@@ -67,7 +67,7 @@ Serve para comparar se dois valores são ou não iguais, retornando 'true' para 
 > Obs2: Dar preferência para utilização de '===' ou '!==' na checagem, garantindo uma maior confiabilidade.
 >E é possível comparar também letras e não apenas números, exemplo: 'a' < 'z'. //true
 
-####Operadores Unários
+#### Operadores Unários
 São aqueles que recebem apenas um valor para funcionar.
 
 - '-' pode ser usado para enverter o valor de um número: -3
