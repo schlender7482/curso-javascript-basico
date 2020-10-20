@@ -74,7 +74,7 @@ São aqueles que recebem apenas um valor para funcionar.
 - '!' inverte os valores do tipo Boolean: !true = false.
 - 'typeof' serve para descobrir o tipo de algum valor: typeof 3 = Number.
 
-####Operador Ternário
+#### Operador Ternário
 Ele recebe três valores e serve para verificarmos uma condição. O primeiro parâmetro é a condicional, o segundo é o valor caso 
 a condicional seja verdadeira e o terceiro valor caso a condição seja falsa.
 
