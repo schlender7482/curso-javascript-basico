@@ -16,7 +16,7 @@ if (n1 <= n2) {
 }
 
 //Exemplo de if ternário
-(n1 <= n2) ? console.log('n1 é menor que n2.') : console.log('n1 não é menor que n2.');
+//(n1 <= n2) ? console.log('n1 é menor que n2.') : console.log('n1 não é menor que n2.');
 
 //Desafio par ou ímpar
 var numero = 2;
@@ -46,8 +46,7 @@ function segundoMaior(numeros) {
 segundoMaior([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 
 //Desafio do objeto.
-function meuObjeto(a, b)
-{
+function meuObjeto(a, b) {
    return {
        largura: a,
        comprimento: b,
@@ -57,8 +56,7 @@ function meuObjeto(a, b)
 }
 meuObjeto(4, 5);
 
-function getDiaSemana(dataString)
-{
+function getDiaSemana(dataString) {
     let dateArray = dataString.split('-');
 
     return `${dateArray[1]}/${dateArray[2]}/${dateArray[0]}`;
@@ -73,7 +71,42 @@ function diferenca(m, n) {
         }
     }
 }
-
 diferenca([2, 4, 5, 9], [2, 4, 11, 12]);
 
 
+function quantidade(objetos) {
+    let soma = 0;
+    for (let i = 0; i <= objetos.length - 1; i++) {
+        objetos[i].x === objetos[i].y ? soma++ : null;
+    }
+    return soma;
+}
+
+function ordenacao(jogadores) {
+    jogadores.sort((a, b) => {
+        return b['placar'] - a['placar'];
+    });
+    jogadores.forEach(function (jogador) {
+        console.log(jogador.nome+" "+jogador.placar);
+    });
+}
+
+let teste = [
+    {nome: 'amy', placar: 100},
+    {nome: 'david', placar: 100},
+    {nome: 'heraldo', placar: 50},
+    {nome: 'aakansha', placar: 75},
+    {nome: 'aleksa', placar: 150},
+];
+ordenacao(teste);
+
+function operacao(segInt, segFloat, segString) {
+    let priInt = 4;
+    let priFloat = 3.17;
+    let priString = "JavaScript - ";
+
+    console.log(priInt+parseInt(segInt));
+    console.log(priFloat+parseFloat(segFloat));
+    console.log(`${priString}${segString.toString()}`);
+}
+operacao(7, 5.32, 'Básico');
